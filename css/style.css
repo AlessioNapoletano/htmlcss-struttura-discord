@@ -46,7 +46,8 @@ div.login{
 
 /*                                              MAIN                                                    */
 
-div.container{
+/*Container mini*/
+div.container-mini{
     background-color: #1d0086;
     height: 20rem;
     justify-content: center;
@@ -58,3 +59,27 @@ div.box-pink{
     width: 50%;
     height: 70%;
 }
+
+div.contaiener{
+    background-color: #ffffff;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+div.box-father{
+    width: 70%;
+    height: 80%;
+    border: 2px dotted black;
+}
+div.box-blue{
+    background-color: #6183f9;
+    width: 70%;
+    height: 100%;
+}
+
+div.box-soft-pink{
+    background-color: #eebfca;
+    width: 30%;
+    height: 100%;
+}
+
