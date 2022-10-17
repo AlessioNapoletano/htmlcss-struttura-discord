@@ -220,7 +220,6 @@ div.box-mini-green li{
     color: white;
 }
 
-
 /* HR WHITE*/
 
 div.hr-white{
@@ -236,10 +235,8 @@ section.footer{
     align-items: center;
 }
 div.bk-aqua{
-    background-color: #b0ffd4;
     width: 70%;
     height: 2rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
