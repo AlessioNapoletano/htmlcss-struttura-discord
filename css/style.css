@@ -6,14 +6,11 @@
 
 .flex-container {
     display: flex;
-    
 }
-
 /*                                                  HEADER                                                          */
 header{
     background-color: #bbd5e4;
-    height: 2rem;
-    padding: 1.5rem;
+    height: 3rem;
     justify-content: center;
     align-items: center;
 }
@@ -21,38 +18,41 @@ header{
 header div.head{
     background-color: #c8a93d;
     width: 70%;
+    height: 90%;
     height: 2rem;
 }
 
 div.logo{
     width: 25%;
     border: 2px dotted black;
-    height: 100%;
 }
 
 div.nav{
     width: 50%;
     border: 2px dotted black;
-    height: 100%;
     text-align: center;
 }
 
 div.login{
     width: 25%;
     border: 2px dotted black;
-    height: 100%;
     text-align: right;
 }
 
 /*                                              MAIN                                                    */
 
 /*Container mini*/
-div.container-mini{
+section.bk-blue{
     background-color: #1d0086;
     height: 20rem;
     justify-content: center;
     align-items: center;
 }
+/*div.container-box-pink{
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}*/
 
 div.box-pink{
     background-color: #d67aea;
@@ -112,4 +112,39 @@ div.box-green{
     background-color: #528c32;
     width: 70%;
     height:90%;
+}
+
+
+/* FOOTER*/
+
+footer{
+    background-color: #292b2e;
+}
+
+div.container-footer{
+    
+    margin-top: 2rem;
+    height: 35rem;
+    justify-content: center;
+    width: 70%;
+}
+
+div.box-rosa{
+    background-color: #d48282;
+    width: 40%;
+    height: 20rem;
+    border: 1px dotted black;
+}
+
+div.box-mini-green{
+    background-color: #6aafa7;
+    width: 15%;
+    height: 20rem;
+    border: 1px dotted white;
+
+}
+
+div.white{
+    height: 1rem;
+    background-color: white;
 }
