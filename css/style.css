@@ -2,21 +2,25 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .flex-container {
     display: flex;
 }
+ul{
+    list-style: none;
+}
 /*                                                  HEADER                                                          */
 header{
-    background-color: #bbd5e4;
+    background-color: #255ee9;
     height: 3rem;
     justify-content: center;
     align-items: center;
+    padding-top: .5rem;
 }
 
 header div.head{
-    background-color: #c8a93d;
     width: 70%;
     height: 90%;
     height: 2rem;
@@ -24,35 +28,52 @@ header div.head{
 
 div.logo{
     width: 25%;
-    border: 2px dotted black;
 }
 
 div.nav{
     width: 50%;
-    border: 2px dotted black;
     text-align: center;
+    flex-direction: row;
 }
 
 div.login{
     width: 25%;
-    border: 2px dotted black;
     text-align: right;
+
+}
+
+button{
+    background-color: white;
+    color: #255ee9;
+    border-radius: 20%;
+    padding: .5rem;
 }
 
 /*                                              MAIN                                                    */
 
 /*Container mini*/
 section.bk-blue{
-    background-color: #1d0086;
-    height: 20rem;
+    background-image: url(../imgs/jumbo.png);
+    background-size: cover;
+    height: 30rem;
     justify-content: center;
     align-items: center;
 }
 
 div.box-pink{
-    background-color: #d67aea;
     width: 50%;
     height: 70%;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+div.box-pink h1{
+    font-size: 3rem;
+}
+
+div.box-pink p{
+    font-size: 1.1rem;
+    padding: .8rem;
 }
 
 /*Section WHITE*/
