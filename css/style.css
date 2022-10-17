@@ -1,0 +1,43 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #bbd5e4;
+    height: 2rem;
+    padding: 1.5rem;
+}
+
+header div.head{
+    background-color: #c8a93d;
+    width: 50%;
+    height: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.logo{
+    width: 25%;
+    border: 2px dotted black;
+    height: 100%;
+}
+
+div.nav{
+    width: 50%;
+    border: 2px dotted black;
+    height: 100%;
+    text-align: center;
+}
+
+div.login{
+    width: 25%;
+    border: 2px dotted black;
+    height: 100%;
+    text-align: right;
+}
