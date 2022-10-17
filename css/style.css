@@ -142,7 +142,7 @@ section.bk-grey div.box-soft-pink{
 
 section.bk-lightgrey{ 
     background-color: #d2d2d2;
-    height: 40rem;
+    height: 50rem;
     justify-content: center;
     align-items: center;
 }
@@ -158,6 +158,19 @@ div.box-green h1{
     padding-bottom: 1rem;
 }
 
+div.stars{
+    background-image: url(../imgs/stars.svg);
+}
+
+div.stars h2{
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: .5rem;
+}
+button.bk-soft-violet{
+    background-color: #969adc;
+    color: white;
+}
 /* FOOTER*/
 
 footer{
