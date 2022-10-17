@@ -48,11 +48,6 @@ section.bk-blue{
     justify-content: center;
     align-items: center;
 }
-/*div.container-box-pink{
-    height: 20rem;
-    justify-content: center;
-    align-items: center;
-}*/
 
 div.box-pink{
     background-color: #d67aea;
@@ -61,26 +56,31 @@ div.box-pink{
 }
 
 /*Section WHITE*/
-div.contaiener{
+section.white{
+    background-color: white;
     height: 20rem;
     justify-content: center;
     align-items: center;
 }
-div.box-father{
-    width: 70%;
+div.container-box{
     height: 80%;
-    border: 2px dotted black;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
 }
+
 div.box-blue{
     background-color: #6183f9;
     width: 70%;
     height: 100%;
+    border: 1px dotted black
 }
 
 div.box-soft-pink{
     background-color: #eebfca;
     width: 30%;
     height: 100%;
+    border: 1px dotted black
 }
 
 /*Section gREY*/
