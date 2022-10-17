@@ -126,19 +126,17 @@ div.box-soft-pink p{
 /*Section bk-grey*/
 section.bk-grey{
     background-color: #d2d2d2;
-    height: 20rem;
+    height: 42rem;
     justify-content: center;
     align-items: center;
 }
 
 section.bk-grey div.box-blue{
-    background-color: #6183f9;
     width: 70%;
     order: 1;
 }
 
 section.bk-grey div.box-soft-pink{
-    background-color: #eebfca;
     width: 30%;
 }
 
