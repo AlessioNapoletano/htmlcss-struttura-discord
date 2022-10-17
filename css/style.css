@@ -123,7 +123,11 @@ div.box-green{
 
 footer{
     background-color: #292b2e;
-    height: 35rem;
+    height: 50rem;
+}
+
+section.bk-dark-blue{
+    height: 22rem;
     justify-content: center;
     padding: 1rem 0;
 }
@@ -145,5 +149,21 @@ div.box-mini-green{
     width: 15%;
     height: 100%;
     border: 1px dotted white;
+}
 
+/* HR WHITE*/
+
+div.hr-white{
+    background-color: white;
+    height: .1rem;
+
+}
+
+section.footer{
+    height: 2rem;
+}
+div.bk.aqua{
+    background-color: #b0ffd4;
+    width: 70%;
+    height: 2rem;
 }
