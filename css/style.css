@@ -11,6 +11,10 @@
 ul{
     list-style: none;
 }
+nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
 /*                                                  HEADER                                                          */
 header{
     background-color: #255ee9;
@@ -39,14 +43,22 @@ div.nav{
 div.login{
     width: 25%;
     text-align: right;
-
+    display: flex;
+    justify-content: end;
 }
 
 button{
     background-color: white;
-    color: #255ee9;
-    border-radius: 20%;
-    padding: .5rem;
+    color: black;
+    border-radius: 20px;
+    padding: .5rem 1rem;
+    border: none;
+
+}
+
+button.bk-black{
+    background-color: black;
+    color: white;
 }
 
 /*                                              MAIN                                                    */
