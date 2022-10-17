@@ -102,51 +102,48 @@ section.bk-grey div.box-soft-pink{
     width: 30%;
 }
 
-/*section with box green*/
+/*section bk-lightgreen*/
 
-div.contaiener-box-green{
+section.bk-lightgrey{ 
     background-color: #d2d2d2;
     height: 40rem;
     justify-content: center;
     align-items: center;
 }
+
 div.box-green{
     background-color: #528c32;
     width: 70%;
     height:90%;
-}
+    border: 2px dotted black;
 
+}
 
 /* FOOTER*/
 
 footer{
     background-color: #292b2e;
-}
-
-div.container-footer{
-    
-    margin-top: 2rem;
     height: 35rem;
     justify-content: center;
-    width: 70%;
+    padding: 1rem 0;
 }
-
-div.box-rosa{
+div.container-footer{
+    width: 70%;
+    height: 20rem;
+    justify-content: center;
+    align-items: center;
+}
+div.box-mini-pink{
     background-color: #d48282;
     width: 40%;
-    height: 20rem;
+    height: 100%;
     border: 1px dotted black;
 }
 
 div.box-mini-green{
     background-color: #6aafa7;
     width: 15%;
-    height: 20rem;
+    height: 100%;
     border: 1px dotted white;
 
-}
-
-div.white{
-    height: 1rem;
-    background-color: white;
 }
