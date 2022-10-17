@@ -190,18 +190,36 @@ div.container-footer{
     align-items: center;
 }
 div.box-mini-pink{
-    background-color: #d48282;
     width: 40%;
     height: 100%;
-    border: 1px dotted black;
+    color: white;
+}
+
+div.box-mini-pink h1{
+    color: #7d81d5;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+
+}
+
+div.box-mini-pink img{
+    width: 1rem;
 }
 
 div.box-mini-green{
-    background-color: #6aafa7;
     width: 15%;
     height: 100%;
-    border: 1px dotted white;
 }
+
+div.box-mini-green h2{
+    color: #7d81d5;
+    font-size: 1rem;
+}
+div.box-mini-green li{
+    padding-top: .5rem;
+    color: white;
+}
+
 
 /* HR WHITE*/
 
