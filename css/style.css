@@ -155,15 +155,21 @@ div.box-mini-green{
 
 div.hr-white{
     background-color: white;
-    height: .1rem;
+    height: 1px;
+    margin-bottom: 1rem;
 
 }
 
 section.footer{
     height: 2rem;
+    justify-content: center;
+    align-items: center;
 }
-div.bk.aqua{
+div.bk-aqua{
     background-color: #b0ffd4;
     width: 70%;
     height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
