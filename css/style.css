@@ -88,10 +88,13 @@ div.box-pink p{
     padding: .8rem;
 }
 
+
+
+
 /*Section WHITE*/
 section.bk-white{
     background-color: white;
-    height: 20rem;
+    height: 35rem;
     justify-content: center;
     align-items: center;
 }
@@ -103,17 +106,21 @@ div.container-box{
 }
 
 div.box-blue{
-    background-color: #6183f9;
     width: 70%;
     height: 100%;
-    border: 2px dotted black
 }
 
 div.box-soft-pink{
-    background-color: #eebfca;
     width: 30%;
     height: 100%;
-    border: 2px dotted black
+}
+
+div.box-soft-pink h1{
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+div.box-soft-pink p{
+    font-size: 1.5rem;
 }
 
 /*Section bk-grey*/
