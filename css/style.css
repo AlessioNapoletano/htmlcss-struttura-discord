@@ -62,7 +62,6 @@ div.box-pink{
 
 /*Section WHITE*/
 div.contaiener{
-    background-color: #ffffff;
     height: 20rem;
     justify-content: center;
     align-items: center;
@@ -99,4 +98,18 @@ section.grey div.box-blue{
 section.grey div.box-soft-pink{
     background-color: #eebfca;
     width: 30%;
+}
+
+/*section with box green*/
+
+div.contaiener-box-green{
+    background-color: #d2d2d2;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+}
+div.box-green{
+    background-color: #528c32;
+    width: 70%;
+    height:90%;
 }
