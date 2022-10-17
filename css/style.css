@@ -60,6 +60,7 @@ div.box-pink{
     height: 70%;
 }
 
+/*Section WHITE*/
 div.contaiener{
     background-color: #ffffff;
     height: 20rem;
@@ -83,3 +84,19 @@ div.box-soft-pink{
     height: 100%;
 }
 
+/*Section gREY*/
+
+section.grey div.contaiener{
+    background-color: #d2d2d2;
+}
+
+section.grey div.box-blue{
+    background-color: #6183f9;
+    width: 70%;
+    order: 1;
+}
+
+section.grey div.box-soft-pink{
+    background-color: #eebfca;
+    width: 30%;
+}
