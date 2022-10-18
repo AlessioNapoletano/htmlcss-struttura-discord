@@ -8,14 +8,31 @@
 .flex-container {
     display: flex;
 }
+.flex-center{
+    justify-content: center;
+    align-items: center; 
+}
+
+/*                                                  HEADER                                                          */
 ul{
     list-style: none;
 }
-nav ul {
+nav ul{
     display: flex;
     justify-content: space-between;
   }
-/*                                                  HEADER                                                          */
+
+nav{
+    width: 50%;
+    text-align: center;
+    flex-direction: row;
+}
+
+header li{
+    color: white;
+    padding: .5rem;
+}
+
 header{
     background-color: #255ee9;
     height: 3rem;
@@ -24,7 +41,7 @@ header{
     padding-top: .5rem;
 }
 
-header div.head{
+header section.main-header{
     width: 70%;
     height: 90%;
     height: 2rem;
@@ -32,12 +49,6 @@ header div.head{
 
 div.logo{
     width: 25%;
-}
-
-div.nav{
-    width: 50%;
-    text-align: center;
-    flex-direction: row;
 }
 
 div.login{
@@ -57,14 +68,13 @@ button{
 }
 
 button.bk-black{
-    background-color: black;
+    background-color: #292b2e;
     color: white;
 }
 
 /*                                              MAIN                                                    */
 
-/*Container mini*/
-section.bk-blue{
+section.jumbotron{
     background-image: url(../imgs/jumbo.png);
     background-size: cover;
     height: 30rem;
@@ -72,27 +82,39 @@ section.bk-blue{
     align-items: center;
 }
 
-div.box-pink{
+div.box-description-jumbotron{
     width: 50%;
     height: 70%;
     color: white;
     text-align: center;
     padding: 1rem;
 }
-div.box-pink h1{
+div.box-description-jumbotron h1{
     font-size: 3rem;
+    padding-bottom: 1.5rem;
 }
 
-div.box-pink p{
+div.box-description-jumbotron p{
     font-size: 1.1rem;
-    padding: .8rem;
+    padding: .8rem .8rem 1.5rem .8rem;
+}
+
+div.box-description-jumbotron > button{
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+button span.entity{
+    font-size: 1rem;
 }
 
 
 /*Section WHITE*/
 section.bk-white{
     background-color: white;
-    height: 35rem;
+    height: 45rem;
     justify-content: center;
     align-items: center;
 }
@@ -103,57 +125,51 @@ div.container-box{
     align-items: center;
 }
 
-div.box-blue{
+div.box-img{
     width: 70%;
     height: 100%;
 }
 
-div.box-soft-pink{
+div.box-description{
     width: 30%;
     height: 100%;
 }
 
-div.box-soft-pink h1{
-    font-size: 2rem;
+div.box-description h1{
+    font-size: 2.5rem;
     padding-bottom: 1rem;
 }
-div.box-soft-pink p{
+div.box-description p{
     font-size: 1.5rem;
 }
 
 /*Section bk-grey*/
 section.bk-grey{
     background-color: #d2d2d2;
-    height: 42rem;
-    justify-content: center;
-    align-items: center;
-}
-
-section.bk-grey div.box-blue{
-    width: 70%;
-    order: 1;
-}
-
-section.bk-grey div.box-soft-pink{
-    width: 30%;
-}
-
-/*section bk-lightgreen*/
-
-section.bk-lightgrey{ 
-    background-color: #d2d2d2;
     height: 50rem;
     justify-content: center;
     align-items: center;
 }
 
-div.box-green{
+section.bk-grey div.box-img{
+    width: 70%;
+    order: 1;
+}
+
+section.bk-grey div.box-description{
+    width: 30%;
+}
+
+/*section bk-lightgreen*/
+
+
+div.box-top-description{
     width: 70%;
     height:90%;
     text-align: center;
 }
 
-div.box-green h1{
+div.box-top-description h1{
     font-size: 2rem;
     padding-bottom: 1rem;
 }
@@ -165,11 +181,12 @@ div.stars{
 div.stars h2{
     font-size: 1.5rem;
     text-align: center;
-    padding-bottom: .5rem;
+    padding: 1rem;
 }
 button.bk-soft-violet{
     background-color: #969adc;
     color: white;
+    padding: .5rem 1rem;
 }
 /* FOOTER*/
 
@@ -181,7 +198,7 @@ footer{
 section.bk-dark-blue{
     height: 22rem;
     justify-content: center;
-    padding: 1rem 0;
+    padding: 3rem 0;
 }
 div.container-footer{
     width: 70%;
@@ -226,10 +243,13 @@ div.hr-white{
     background-color: white;
     height: 1px;
     margin-bottom: 1rem;
+    width: 70%;
+    margin: 0 auto;
 
 }
 
 section.footer{
+    padding-top: 1rem;
     height: 2rem;
     justify-content: center;
     align-items: center;
